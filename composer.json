@@ -1,0 +1,38 @@
+{
+  "name": "elsuterino/form",
+  "description": "Typed forms",
+  "authors": [
+    {
+      "name": "Vytautas Riauka",
+      "email": "wytuxas@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Elsuterino\\Form\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "laravel/framework": "^10.37",
+    "propaganistas/laravel-phone": "^5.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    },
+    "preferred-install": {
+      "*": "auto"
+    },
+    "sort-packages": true
+  },
+  "require-dev": {
+    "larastan/larastan": "^2.7"
+  },
+  "scripts": {
+    "lint": [
+      "@php vendor/bin/phpstan analyse"
+    ]
+  }
+}
