@@ -1,5 +1,5 @@
 {
-  "name": "elsuterino/form",
+  "name": "barklis/form",
   "description": "Typed forms",
   "authors": [
     {
@@ -9,7 +9,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Elsuterino\\Form\\": "src/"
+      "Barklis\\Form\\": "src/"
     }
   },
   "require": {
