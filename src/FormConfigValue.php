@@ -1,11 +1,11 @@
 <?php
 
-namespace Barklis\Form\Configs;
+namespace Barklis\Form;
 
 use Illuminate\Support\Facades\Config;
 use InvalidArgumentException;
 
-readonly class ConfigRule
+readonly class FormConfigValue
 {
     protected mixed $value;
 
@@ -16,11 +16,6 @@ readonly class ConfigRule
         }
 
         $this->value = Config::get($path);
-    }
-
-    protected function throwInvalidType(string $type): InvalidArgumentException
-    {
-        return new InvalidArgumentException("Config for path {$this->path} returns wrong type, it should be $type");
     }
 
     public function get(): mixed{

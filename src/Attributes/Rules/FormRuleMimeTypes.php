@@ -2,9 +2,8 @@
 
 namespace Barklis\Form\Attributes\Rules;
 
-use Barklis\Form\Configs\ConfigRule;
+use Barklis\Form\FormConfigValue;
 use Barklis\Form\FormRule;
-use InvalidArgumentException;
 
 class FormRuleMimeTypes extends FormRule
 {
@@ -12,7 +11,7 @@ class FormRuleMimeTypes extends FormRule
      * @param  string[]  $mimes
      */
     public function __construct(
-        private readonly array|ConfigRule $mimes,
+        private readonly array|FormConfigValue $mimes,
     ) {
 
     }

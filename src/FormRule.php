@@ -2,7 +2,6 @@
 
 namespace Barklis\Form;
 
-use Barklis\Form\Configs\ConfigRule;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Contracts\Validation\ValidatorAwareRule;
@@ -22,7 +21,7 @@ abstract class FormRule
 
     protected function validateInt(mixed $value): int
     {
-        if($value instanceof ConfigRule){
+        if($value instanceof FormConfigValue){
             $value = $value->get();
         }
 
@@ -38,7 +37,7 @@ abstract class FormRule
      */
     protected function validateArrayString(mixed $value): array
     {
-        if($value instanceof ConfigRule){
+        if($value instanceof FormConfigValue){
             $value = $value->get();
         }
 
