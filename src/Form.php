@@ -1,6 +1,6 @@
 <?php
 
-namespace Elsuterino\Form;
+namespace Barklis\Form;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Request;

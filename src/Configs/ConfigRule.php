@@ -1,6 +1,6 @@
 <?php
 
-namespace Elsuterino\Form\Configs;
+namespace Barklis\Form\Configs;
 
 use Illuminate\Support\Facades\Config;
 use InvalidArgumentException;

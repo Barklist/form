@@ -1,9 +1,9 @@
 <?php
 
-namespace Elsuterino\Form\Attributes\Rules;
+namespace Barklis\Form\Attributes\Rules;
 
-use Elsuterino\Form\Configs\ConfigRule;
-use Elsuterino\Form\FormRule;
+use Barklis\Form\Configs\ConfigRule;
+use Barklis\Form\FormRule;
 
 class FormRuleBetween extends FormRule
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Elsuterino\Form\Attributes\Casts;
+namespace Barklis\Form\Attributes\Casts;
 
-use Elsuterino\Form\FormCast;
+use Barklis\Form\FormCast;
 
 class FormCastArrayInt extends FormCast
 {

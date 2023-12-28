@@ -1,6 +1,6 @@
 <?php
 
-namespace Elsuterino\Form;
+namespace Barklis\Form;
 
 use Attribute;
 

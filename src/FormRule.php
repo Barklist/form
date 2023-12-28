@@ -1,8 +1,8 @@
 <?php
 
-namespace Elsuterino\Form;
+namespace Barklis\Form;
 
-use Elsuterino\Form\Configs\ConfigRule;
+use Barklis\Form\Configs\ConfigRule;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Contracts\Validation\ValidatorAwareRule;
